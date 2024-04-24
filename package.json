@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "A utility that helps to setup common Git config and alias settings, source:@willh/git-setup",
   "main": "./bin/index.js",
-  "bin": {
-    "git-setup": "bin/index.js"
-  },
+   "bin": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenchih/git-setup.git"
+    "url": "https://github.com/chenchih/git-setup"
   },
   "keywords": [
     "git",
@@ -19,9 +17,10 @@
     "config"
   ],
   "author": "chenchih",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chenchih/git-setup/issues"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/chenchih/git-setup#readme"
+  "license": "MIT",
+  "homepage": "https://github.com/chenchih/git-setup"
 }
