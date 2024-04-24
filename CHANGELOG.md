@@ -2,4 +2,4 @@
 
 ### Features
 
-* initialize ([4fd231c](https://github.com/leoli0605/npm-git-setup/commit/4fd231c34eeff4a5bc18fd5e979369a7faea36e6))
+* initialize ([f3140](https://github.com/chenchih/git-setup/commit/f88fdc0d5ad662afd27293a2b8d02fbe604f3140))
