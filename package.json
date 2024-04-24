@@ -15,6 +15,9 @@
     "setup",
     "config"
   ],
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+},
   "homepage": "https://github.com/chenchih/git-setup",
   "author": "chenchih L",
   "license": "MIT",
