@@ -11,7 +11,8 @@
 ## 使用方式
 
 ```sh
-npx @<username>/git-setup
+npx @<node username>/git-setup
+
 ```
 
 - 設定過程會詢問你的 `user.name` 與 `user.email` 資訊
@@ -19,6 +20,15 @@ npx @<username>/git-setup
 - 所有 Git 設定都會以 `--global` 為主 (`~/.gitconfig`)
 - Windows 平台會自動設定 `LC_ALL` 與 `LANG` 使用者環境變數
   - Linux, macOS 平台會提醒進行設定
+
+## How to publish to npmpackage 
+- Step 1 register npm, create account: `https://www.npmjs.com/`
+- Step 2 clone this project `git-setup` or reference below to project
+- Step 3 install node.js 'https://nodejs.org/en'
+- Step 4 npm command:
+ - npm login: `npm login` #press enter will open browser to login your npm account
+ - npm publish: `npm publish`  
+ - other command: `npm whoami`
 
 ## 設定內容
 
