@@ -1,7 +1,7 @@
 {
-  "name": "@chenchih/git-setup",
+  "name": "@jacklee26/git-setup",
   "version": "0.1.0",
-  "description": "一款基於 `@willh/git-setup` 的 git 初始化工具，用於快速初始化 git 設定檔案",
+  "description": "A utility that helps to setup common Git config and alias settings( source: @willh/git-setup)",
   "bin": "./bin/index.js",
   "repository": {
     "type": "git",
@@ -10,21 +10,15 @@
   "bugs": {
     "url": "https://github.com/chenchih/git-setup/issues"
   },
+ "engines": {
+    "node": ">= 10.13.0"
+  },
   "keywords": [
     "git",
     "setup",
     "config"
   ],
-  "publishConfig": {
-  "registry": "https://npm.pkg.github.com"
-},
   "homepage": "https://github.com/chenchih/git-setup",
-  "author": "chenchih L",
-  "license": "MIT",
-  "scripts": {
-    "tag": "npm run tag:minor",
-    "tag:major": "npm version major && git push --follow-tags",
-    "tag:minor": "npm version minor && git push --follow-tags",
-    "tag:patch": "npm version patch && git push --follow-tags"
-  }
+  "author": "chenchih",
+  "license": "MIT"
 }
