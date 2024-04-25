@@ -12,7 +12,7 @@
 
 ```sh
 npx @<node username>/git-setup
-
+npm i @jacklee26/git-setup 
 ```
 
 - 設定過程會詢問你的 `user.name` 與 `user.email` 資訊
